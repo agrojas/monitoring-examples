@@ -12,3 +12,7 @@ heroku config:set DD_API_KEY=<your_api_key>
 heroku config:set DD_DYNO_HOST=false
 
 ```  
+
+
+# Documentacion completa de los parametros de configuracion del agente de Datadog:
+# https://github.com/DataDog/datadog-agent/blob/master/pkg/config/config_template.yaml
