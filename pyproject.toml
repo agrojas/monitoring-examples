@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "monitoring-examples"
+version = "0.1.0"
+description = "Basic proyect with python3 and some monitoring tools"
+authors = ["Agustin Rojas <rojasagustin90@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+pydantic = {extras = ["email"], version = "^1.8.1"}
