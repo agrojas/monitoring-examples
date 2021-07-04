@@ -10,9 +10,14 @@ _Based on https://docs.datadoghq.com/agent/docker/?tab=standard_
 ```
 heroku config:set DD_API_KEY=<your_api_key>
 heroku config:set DD_DYNO_HOST=false
-
+heroku config:set DD_DOGSTATSD_NON_LOCAL_TRAFFIC=true
 ```  
 
 
-# Documentacion completa de los parametros de configuracion del agente de Datadog:
-# https://github.com/DataDog/datadog-agent/blob/master/pkg/config/config_template.yaml
+## Documentacion completa de los parametros de configuracion del agente de Datadog:
+- https://github.com/DataDog/datadog-agent/blob/master/pkg/config/config_template.yaml
+
+# Referencias y recomendaciones
+
+Al suspenderse el dyno en Heroku, esto no se observa en Datadog de manera inmediata.
+Al recargarse este dyno, hay que esperar (5 min aprox) para que se pueda visualizar en Datadog 
