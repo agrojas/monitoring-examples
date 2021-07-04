@@ -1,6 +1,6 @@
+hostname: monitoring-app
 listeners:
   - name: docker
-hostname: monitoring-app
 config_providers:
   - name: docker
     polling: true
