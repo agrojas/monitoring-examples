@@ -10,6 +10,7 @@ _Based on https://docs.datadoghq.com/agent/docker/?tab=standard_
 ```
 heroku config:set DD_API_KEY=<your_api_key>
 heroku config:set DD_DYNO_HOST=false
+heroku config:set DD_APM_ENABLED=true
 heroku config:set DD_DOGSTATSD_NON_LOCAL_TRAFFIC=true
 ```  
 
