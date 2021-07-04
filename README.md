@@ -20,5 +20,8 @@ heroku config:set DD_DOGSTATSD_NON_LOCAL_TRAFFIC=true
 
 # Referencias y recomendaciones
 
-Al suspenderse el dyno en Heroku, esto no se observa en Datadog de manera inmediata.
-Al recargarse este dyno, hay que esperar (5 min aprox) para que se pueda visualizar en Datadog 
+- Utilizar el paquete estudiantil que ofrece Datadog
+
+https://studentpack.datadoghq.com/
+
+- Al suspenderse el dyno en Heroku, esto no se observa en Datadog de manera inmediata. Al recargarse este dyno, hay que esperar (5 min aprox) para que se pueda visualizar en Datadog 
