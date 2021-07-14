@@ -2,7 +2,7 @@
 
 ## Basic config using Datadog + Docker + Heroku + FastAPI
 
-_Based on https://docs.datadoghq.com/agent/docker/?tab=standard_
+_Based on https://docs.datadoghq.com/agent/docker/?tab=standard and https://docs.datadoghq.com/agent/basic_agent_usage/heroku/_
 
 - The heroku Dockerfile includes the DataDog agent. 
 - Create a new DataDog API Key from data dog site. 
